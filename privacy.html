@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="okin-backup が Google Drive API を通じて取り扱うデータの利用、保存、保持、削除、共有に関する方針です。">
+  <title>プライバシーポリシー | okin-backup</title>
+  <style>
+    body {
+      max-width: 44rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+      color: #172738;
+      background: #f7f9fc;
+      font-family: system-ui, sans-serif;
+      line-height: 1.8;
+      overflow-wrap: anywhere;
+    }
+    h1, h2 { line-height: 1.4; }
+    h2 { margin-top: 2rem; font-size: 1.25rem; }
+    a { color: #174d8c; text-underline-offset: 0.2em; }
+    a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <nav aria-label="サイト内ナビゲーション"><a href="./">okin-backup ホーム</a></nav>
+    <h1>プライバシーポリシー</h1>
+    <p>適用開始日 <time datetime="2026-11-07">2026年11月7日</time></p>
+    <p>この方針は、自宅サーバー「okin」のバックアップを運用者本人の Google ドライブに保管する個人用アプリ「okin-backup」に適用されます。</p>
+
+    <h2>取り扱うデータと利用目的</h2>
+    <p>Google Drive API を通じて、指定した保存先のバックアップファイルと、保存先やファイルを識別するための情報（フォルダ名、ファイル名、識別子など）を取り扱います。これらの情報は、バックアップの転送、保管、保存状況の確認に使います。Google OAuth のトークンは、許可された Google Drive API に接続するために使います。</p>
+
+    <h2>保存先とアクセス管理</h2>
+    <p>バックアップの転送先は、運用者本人が管理する Google ドライブの指定フォルダです。運用者は、保存先を公開共有せず、アクセスを本人に限定する方針です。Google OAuth の認証情報は、運用者が管理するローカル環境で取り扱い、公開サイトやリポジトリには掲載しません。</p>
+
+    <h2>共有・販売・広告利用</h2>
+    <p>バックアップの保存に必要なデータは Google ドライブに送信します。運用者は、バックアップファイル、Google Drive API から取得したデータ、認証情報を他者に公開・提供せず、販売や広告配信、広告のための分析にも利用しません。</p>
+
+    <h2>保持と削除</h2>
+    <p>Google ドライブ上で直近52世代のバックアップを保持する予定です。52世代は保存するバックアップの数で、保存日数の保証はありません。自動で古い世代を削除する仕組みは運用開始が確認できていないため、削除が必要な場合は運用者が対象を確認し、Google ドライブ上で手動で削除します。ごみ箱に移したファイルは、Google ドライブのごみ箱の扱いに従います。ローカルのコピーは運用者が別途管理します。</p>
+
+    <h2>アクセス許可の取り消し</h2>
+    <p>運用者は Google アカウントの接続管理から okin-backup のアクセス許可を取り消せます。保存済みファイルの削除は、Google ドライブ上で別途行います。</p>
+
+    <h2>問い合わせ</h2>
+    <p>データの取り扱いに関する問い合わせ先は、Google OAuth 同意画面に表示されるサポート連絡先です。</p>
+  </main>
+</body>
+</html>
